@@ -1,100 +1,127 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: pink;
-    color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: pink;
+  color: black;
 }
 
 header {
-    background-color: green;
-    color: white;
-    padding: 20px 10px;
-    text-align: center;
+  background-color: green;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
 }
 
 header h1 {
-    margin: 0 0 10px 0;
-    font-size: 2em;
+  margin: 0 0 10px 0;
+  font-size: 2em;
 }
 
 header p {
-    margin: 0;
-    font-size: 1em;
+  margin: 0;
+  font-size: 1em;
 }
 
 nav {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
 }
 
 main {
-    max-width: 1000px;
-    margin: 20px auto;
-    padding: 0 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 20px;
 }
 
 section {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 article {
-    background-color: white;
-    padding: 20px;
-    margin-bottom: 15px;
-    border-radius: 8px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
 }
 
 article h3 {
-    margin-top: 0;
-    color: green;
+  margin-top: 0;
+  color: green;
 }
 
 figure {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 figcaption {
-    font-size: 0.9em;
-    color: gray;
-    margin-top: 5px;
+  font-size: 0.9em;
+  color: gray;
+  margin-top: 5px;
 }
 
 p {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 15px 10px;
-    margin-top: 40px;
-    font-size: 0.9em;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: 40px;
+  font-size: 0.9em;
 }
 
 iframe {
-    display: block;
-    margin: 15px auto;
-    max-width: 100%;
+  display: block;
+  margin: 15px auto;
+  max-width: 100%;
 }
 
 article a {
-    color: green;
-    text-decoration: none;
+  color: green;
+  text-decoration: none;
 }
 
 article a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 section#notes {
-    background-color: #f4f4f4;
-    padding: 15px;
-    border-left: 5px solid green;
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-left: 5px solid green;
+}
+.badge {
+  color: #fff; /* Asegura que el texto del badge sea blanco */
+}
+.badge.bg-primary {
+  background-color: #007bff; /* Azul para bg-primary */
+}
+.badge.bg-secondary {
+  background-color: #6c757d; /* Gris para bg-secondary */
+}
+.badge.bg-danger {
+  background-color: #dc3545; /* Rojo para bg-danger */
+}
+.badge.bg-success {
+  background-color: #28a745; /* Verde para bg-success */
+}
+.badge.bg-warning {
+  background-color: #ffc107; /* Amarillo para bg-warning */
+}
+.badge.bg-info {
+  background-color: #17a2b8; /* Cian para bg-info */
+}
+.badge.bg-light {
+  background-color: #f8f9fa; /* Claro para bg-light */
+  color: #000; /* Texto negro para bg-light */
+  border: #000;
+  border-style: solid;
 }
