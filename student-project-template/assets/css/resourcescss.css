@@ -125,3 +125,8 @@ section#notes {
   border: #000;
   border-style: solid;
 }
+section#troubleshooting {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-left: 5px solid green;
+}
