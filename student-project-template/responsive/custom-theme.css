@@ -1,0 +1,59 @@
+/* Custom color scheme */
+:root {
+  --custom-primary: #ff6b35;
+  --custom-secondary: #f7931e;
+  --custom-accent: #ffcc02;
+}
+
+/* Override Bootstrap components */
+.navbar-brand {
+  color: var(--custom-primary) !important;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  color: var(--custom-secondary) !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--custom-primary) !important;
+}
+
+.custom-card {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border: 2px solid var(--custom-accent);
+  border-radius: 1rem;
+  box-shadow: 0 8px 25px rgba(255, 107, 53, 0.15);
+}
+
+.btn-primary {
+  background-color: var(--custom-primary);
+  border-color: var(--custom-primary);
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+  border-radius: 2rem;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #e55a2b;
+  border-color: #e55a2b;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
+}
+
+/* Custom utility classes */
+.text-custom-primary {
+  color: var(--custom-primary) !important;
+}
+
+.bg-custom-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--custom-primary) 0%,
+    var(--custom-secondary) 100%
+  );
+}
