@@ -130,3 +130,10 @@ section#troubleshooting {
   padding: 15px;
   border-left: 5px solid green;
 }
+.parallax-section {
+  background-image: url("../images/jekyll-showcase.png");
+  min-height: 500px;
+  background-attachment: fixed; /* KEY! */
+  background-position: center;
+  background-size: cover;
+}
